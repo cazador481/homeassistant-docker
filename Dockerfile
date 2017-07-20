@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:0.49.0
+FROM homeassistant/home-assistant:0.49
 VOLUME /config
 
 RUN mkdir -p /usr/src/app
