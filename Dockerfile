@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:0.115.6
+FROM homeassistant/home-assistant:latest
 VOLUME /config
 
 # fix bug where calendar only update very 15 minutes
