@@ -5,4 +5,4 @@ VOLUME /config
 RUN sed -i 's/minutes=15/minutes=1/' /usr/src/homeassistant/homeassistant/components/google/calendar.py
 
 #https://github.com/craigbarratt/hass-pyscript-jupyter
-pip install hass_pyscript_kernel
+#/usr/local/bin/pip3 install hass_pyscript_kernel
