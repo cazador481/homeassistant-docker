@@ -7,4 +7,5 @@ RUN sed -i 's/minutes=15/minutes=1/' /usr/src/homeassistant/homeassistant/compon
 #https://github.com/craigbarratt/hass-pyscript-jupyter
 #RUN /usr/local/bin/pip3 install hass_pyscript_kernel
 # install needed so that I can get the teams status
-RUN /usr/local/bin/pip3 install git+https://github.com/O365/python-o365.git
+# RUN /usr/local/bin/pip3 install git+https://github.com/O365/python-o365.git
+RUN pip3 install requests msal
